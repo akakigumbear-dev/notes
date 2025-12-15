@@ -1,8 +1,30 @@
-# Ignore entire app folders
-frontend/
-backend/
-
-# Ignore env files anywhere
+# Env files
 .env
 .env.*
 !.env.example
+
+# Node / package managers
+**/node_modules/
+**/.npm/
+**/.pnpm-store/
+**/.yarn/
+
+# Build outputs
+**/dist/
+**/build/
+**/.next/
+**/out/
+**/.vite/
+**/coverage/
+
+# Logs
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
