@@ -1,32 +1,31 @@
-# Notes App – Full-Stack Technical Assignment
+# Notes Application (Full-Stack)
 
-This project is a small full-stack web application built as part of a technical interview assignment.  
-It allows users to create, update, view, and search notes that are persisted in a database.
+This project is a small full-stack web application created as a technical interview assignment.
+It allows users to create, update, view, and search notes that are stored persistently in a database.
 
-The goal of the solution is clarity, simplicity, and a clean separation between frontend and backend.
+The implementation focuses on clarity, simplicity, and a clean separation between frontend and backend.
 
 ---
 
-## Technology Stack
+## Tech Stack
 
-**Frontend**
+### Frontend
 - React (Vite)
 - TypeScript
 - Material UI (MUI)
 - Axios
 
-**Backend**
+### Backend
 - Node.js
 - Express
 - TypeScript
 
-**Database**
-- SQLite (file-based persistence)
+### Database
+- SQLite (file-based SQL database)
 
-**Infrastructure (optional)**
-- Docker
-- Docker Compose
-- visit http://0.0.0.0:5173
+### Tooling
+- Docker & Docker Compose (optional, for easy startup)
+
 ---
 
 ## Project Structure
