@@ -26,7 +26,7 @@ The goal of the solution is clarity, simplicity, and a clean separation between 
 **Infrastructure (optional)**
 - Docker
 - Docker Compose
-
+- visit http://0.0.0.0:5173
 ---
 
 ## Project Structure

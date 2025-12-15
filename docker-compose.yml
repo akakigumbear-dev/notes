@@ -19,4 +19,3 @@ services:
       - VITE_API_URL=http://localhost:3000
     depends_on:
       - backend
-    restart: unless-stopped
