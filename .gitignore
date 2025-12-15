@@ -1,0 +1,8 @@
+# Ignore entire app folders
+frontend/
+backend/
+
+# Ignore env files anywhere
+.env
+.env.*
+!.env.example
